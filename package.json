@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "Official API Server for the Tox Mod Discord Bot and Website",
     "main": "index.js",
+    "engineStrict" : true,
 
     "engines" : { 
-      "node" : ">=0.12" 
+      "node" : "16.13.0" 
    },
 
    "scripts": {
