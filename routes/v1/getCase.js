@@ -1,4 +1,4 @@
-const Case_DB = require('../models/cases');
+const Case_DB = require('../../models/cases');
 
 const getCase = async (fastify, options, done) => {
 
