@@ -10,10 +10,10 @@ const landingPage = (fastify, options, done) => {
         let stable_version = '2.1.2'
 
         res.status(200).send(JSON.stringify({
-            version: current_version,
-            pversion: previous_version,
-            nversion: newest_version,
-            sversion: stable_version
+            current: current_version,
+            previous: previous_version,
+            newest: newest_version,
+            stable: stable_version
           }))
     });
 
