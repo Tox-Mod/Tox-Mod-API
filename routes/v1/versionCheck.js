@@ -1,4 +1,4 @@
-const landingPage = (fastify, options, done) => {
+const versionCheck = (fastify, options, done) => {
     
     fastify.get("/v1/versions/check", async (req, res) => {
 
@@ -20,4 +20,4 @@ const landingPage = (fastify, options, done) => {
     done()
   };
 
-module.exports = landingPage;
+module.exports = versionCheck;
