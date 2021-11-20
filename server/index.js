@@ -27,9 +27,9 @@ module.exports = async (client) => {
     });
 
     const routes = [
-        "../routes/landingPage",
-        "../routes/getUser",
-        "../routes/getCase"
+        "../routes/v1/landingPage",
+        "../routes/v1/getUser",
+        "../routes/v1/getCase"
     ]
     routes.map(route => {
         fastify.register(require(route));
