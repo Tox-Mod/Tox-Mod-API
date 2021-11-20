@@ -1,4 +1,4 @@
-const User_DB = require('../models/users');
+const User_DB = require('../../models/users');
 
 const getUser = async (fastify, options, done) => {
 
