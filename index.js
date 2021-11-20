@@ -10,6 +10,7 @@ let Fastify = require("./server/index");
 
 client.on("ready", () => {
     Fastify(client);
+    console.log('[Tox Mod API] All systems are a go chief');
 });
 
 client.login(config.token)
