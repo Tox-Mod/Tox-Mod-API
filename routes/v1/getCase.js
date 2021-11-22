@@ -14,12 +14,12 @@ const getCase = async (fastify, options, done) => {
         if (cases) {
             res.status(200).send(JSON.stringify({
                 userID: cases.userID,
-                bio: cases.reason || 'No reason provided',
+                reason: cases.reason || 'No reason provided',
                 action: cases.action,
                 serverID: cases.serverID,
                 moderator: cases.Moderator,
                 case: cases.case,
-                time: cases.time,
+                date: cases.time,
                 duration: cases.duration || 'No duration for this Action'
             }))
 
