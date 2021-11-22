@@ -24,7 +24,7 @@ const getCase = async (fastify, options, done) => {
             }))
 
         } else res.status(400).send(JSON.stringify({
-            message: '[Tox Mod API] Woah, Unable to find that Case in our System. Please check the ID`s and Try Again!',
+            message: '[Tox Mod API] Woah, Unable to find that Case in our System!. Please check the ID`s and Try Again!',
             error: true,
             fatal: false,
             status: 400
