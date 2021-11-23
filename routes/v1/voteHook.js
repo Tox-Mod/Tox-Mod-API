@@ -6,7 +6,7 @@ const webhook = new Infinity.Webhook('ToxicIsBae123')
 
 const voteHook = (fastify, options, done) => {
     
-    fastify.post("/hooks/vote", webhook.hookListener(async (vote, req, res) => {
+    fastify.post("/v1/hooks/vote", webhook.hookListener(async (vote, req, res) => {
 
         res.header("authorization", "ToxicIsBae123");
 
