@@ -8,8 +8,6 @@ const voteHook = (fastify, options, done) => {
     
     fastify.post("/v1/hooks/vote", webhook.hookListener(async (vote, req, res) => {
 
-        res.header("authorization", "ToxicIsBae123");
-
         let client = req.client
 
         let voteLog = new MessageEmbed()
