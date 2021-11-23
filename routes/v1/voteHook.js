@@ -11,14 +11,14 @@ const voteHook = (fastify, options, done) => {
         let client = req.client
 
         let voteLog = new MessageEmbed()
-          .setTitle('⬆️ Vote Logs')
+          .setTitle('⬆️ UpVote Logs')
           .setColor('#0EFF00')
           .setThumbnail('https://toxmod.xyz/images/ToxModLogo.gif')
-          .setDescription(`<@!${vote.user}> has gave me a Upvote on Infinity`)
+          .setDescription(`<@!${vote.userID}> has gave me a Upvote on Infinity`)
           .setTimestamp()
           .setFooter('© 2021 Tox Mod', 'https://toxmod.xyz/images/ToxModLogo.gif')
             
-        await client.guilds.cache.get(config.guildID).channels.cache.get(config.logsID).send({ embeds: [voteLog] }); 
+        await client.guilds.cache.get(config.guildID).channels.cache.get(config.voteLogs).send({ embeds: [voteLog] }); 
        
     }));
 
