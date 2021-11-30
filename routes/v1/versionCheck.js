@@ -1,4 +1,4 @@
-const versionCheck = (fastify, options, done) => {
+const chillVersionCheck = (fastify, options, done) => {
     
     fastify.get("/v1/versions/check", async (req, res) => {
 
@@ -20,4 +20,4 @@ const versionCheck = (fastify, options, done) => {
     done()
   };
 
-module.exports = versionCheck;
+module.exports = chillVersionCheck;
