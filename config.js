@@ -6,6 +6,6 @@ module.exports = {
     webhook_id: process.env.hookID,
     webhook_url:"hookURL",
     guildID: process.env.guildID,
-    logsID: '911175702248820796',
-    voteLogs: '912675970585088042',
+    logsID: process.env.logID,
+    voteLogs: process.env.voteLog,
 }
