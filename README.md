@@ -1,4 +1,5 @@
 # Tox Mod API
+Official Fastify API Server for the Tox Mod Discord Bot
 
 ---
 
