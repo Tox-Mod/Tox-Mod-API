@@ -24,8 +24,11 @@ Official Fastify API Server for the Tox Mod Discord Bot
 <details>
 <summary>👀 Click to View Features!</summary>
   - Fast, Responsive API with proper Error Handling.
+  <br />
   - Blazing Fast Backend Server thanks to Fastify
+  <br />
   - Vote Hook Route for receiving Webhooks from a Bot List.
+  <br />
   - Version Check implementation and Routing
 </details>
 
