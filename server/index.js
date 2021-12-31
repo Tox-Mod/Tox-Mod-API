@@ -28,7 +28,6 @@ module.exports = async (client) => {
 
     const routes = [
         "../routes/v1/landingPage",
-        "../routes/v1/chillVersionCheck",
         "../routes/v1/versionCheck",
         "../routes/v1/voteHook",
         "../routes/v1/getUser",
