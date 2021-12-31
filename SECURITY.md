@@ -13,4 +13,4 @@ Here you can find info about the Tox Mod API Security Policy!
 ---
 
 ## Report a Vulnerability
-- [Email Me](email:toxic.dev09@gmail.com)
+- [My Twitter](https://twitter.com/TheRealToxicDev)
