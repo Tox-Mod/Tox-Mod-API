@@ -19,6 +19,10 @@ const voteHook = (fastify, options, done) => {
           .setDescription(`Somone has voted for me on [Infinity Bot List](https://infinitybotlist.com/bots/631558023109804032/vote)`)
           .addField('User', `${user}`, true)
           .addField('User ID', `${vote.userID}`, true)
+          .addField('Username', `${vote.userName}`, true)
+          .addField('New Count', `${vote.count}`, true)
+          .addField('Timestamp', `${vote.timestamp}`, true)
+          .addField('Vote Type', `${vote.type}`, true)
           .setTimestamp()
           .setFooter('© 2021 Tox Mod', 'https://toxmod.xyz/images/ToxModLogo.gif')
             
